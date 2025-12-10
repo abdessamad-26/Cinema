@@ -1,0 +1,18 @@
+{
+  "name": "cinema",
+  "version": "1.0.0",
+  "description": "Application cinéma pour afficher et rechercher des films (OMDb)",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite" 
+  },
+  "keywords": ["cinema", "omdb", "movies", "vite"],
+  "author": "TonNom",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
