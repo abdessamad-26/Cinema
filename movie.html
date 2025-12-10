@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Découvrez les détails complets de votre film préféré" />
+  <title>Cinéma du Village - Détails du film</title>
+  <link rel="stylesheet" href="/styles/base.css" />
+  <link rel="stylesheet" href="/styles/movie.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="/index.html">    <h1>Cinéma du Village</h1>
+    <nav>
+      <a href="/">Accueil</a>
+      <a href="/search.html">Rechercher</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article id="movie-article" class="movie-article" aria-live="polite">
+      <div class="loading-spinner">
+        <div class="spinner"></div>
+        <p>Chargement des détails du film...</p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Cinéma du Village. Tous droits réservés.</p>
+  </footer>
+
+  <script type="module" src="/src/main-movie.js"></script>
+</body>
+</html>

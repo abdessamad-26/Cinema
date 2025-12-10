@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cinéma du Village - Films en tendance</title>
+  <link rel="stylesheet" href="/styles/base.css" />
+  <link rel="stylesheet" href="/styles/index.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a href="/index.html">    <h1>Cinéma du Village</h1>
+    </a>
+    <nav>
+      <a href="/">Accueil</a>
+      <a href="/search.html">Rechercher</a>
+    </nav>  
+  </header>
+  <main id="main" class="container">
+    <section aria-labelledby="trending-title">
+      <h2 id="trending-title">Films en tendance</h2>
+      <div id="trending-grid" class="grid" aria-live="polite"></div>
+      <div class="controls">
+        <button id="load-more-trending" class="btn" aria-label="Charger plus de films">Charger plus</button>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>&copy; 2025 Cinéma du Village. Tous droits réservés.</p>
+  </footer>
+  <script type="module" src="/src/main-index.js"></script>
+</body>
+</html>
